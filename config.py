@@ -12,7 +12,7 @@ API_HASH = os.environ.get("API_HASH", "5b2c98efd0bcbac7e101d179034d4045")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5953771810:AAEiWldX6nH_1bHv4DgTgrgcMaDb_qGPJpo")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5948511355")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "MkbLinks")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "mkbnetwork")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://mkbnetwork:mkbnetwork@cluster0.1jiaxrf.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5948511355")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
