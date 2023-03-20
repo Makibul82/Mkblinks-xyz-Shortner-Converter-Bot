@@ -1,5 +1,5 @@
 echo "Cloning Repo...."
-git clone https://github.com/MkbLinks/Mkblinks-xyz-Shortner-Converter-Bot.git /Shortner-Converter-Bot-V2
+git clone https://github.com/MkbLinks/Mkblinks-xyz-Shortner-Converter-Bot.git /Shortner-Con-Bot-V2
 cd /Mkblinks-xyz-Shortner-Converter-Bot
 pip3 install -r requirements.txt
 echo "Starting Bot...."
