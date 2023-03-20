@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID", "26391802"))
 API_HASH = os.environ.get("API_HASH", "5b2c98efd0bcbac7e101d179034d4045")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5953771810:AAEiWldX6nH_1bHv4DgTgrgcMaDb_qGPJpo")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5948511355")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MkbLinks")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://mkbnetwork:mkbnetwork@cluster0.1jiaxrf.mongodb.net/?retryWrites=true&w=majority") 
